@@ -1,6 +1,6 @@
 import { faker } from "@faker-js/faker"
 
-const products = new Array(3).fill(null).map(() => ({
+const products = new Array(30).fill(null).map(() => ({
     id: faker.database.mongodbObjectId(),
     name: faker.commerce.productName(),
     description: faker.commerce.productDescription(),
